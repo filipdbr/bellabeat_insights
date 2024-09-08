@@ -1,0 +1,2 @@
+"0","daily_steps <- rename_with(daily_steps, tolower)"
+"0","clean_names(hourly_calories)"

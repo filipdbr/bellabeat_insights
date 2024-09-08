@@ -1,0 +1,7 @@
+"0","daily_activity_sleep %>%"
+"0","  filter(!is.na(totalminutesasleep)) %>%"
+"0","  mutate(hours_asleep_cluster = cut(totalminutesasleep / 60, breaks = seq(0, 10, by = 1), labels = c(""0-1"", ""1-2"", ""2-3"", ""3-4"", ""4-5"", ""5-6"", ""6-7"", ""7-8"", ""8-9"", ""9-10""), include.lowest = TRUE)) %>%"
+"0","  group_by(hours_asleep_cluster) %>%"
+"0","  summarise(num_records = n()) %>%"
+"0","  filter(as.character(hours_asleep_cluster) <= ""6-7"") %>%"
+"0","  summarise(total_records_6_to_7_hours_or_lower = sum(num_records))"

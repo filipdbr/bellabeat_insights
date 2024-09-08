@@ -1,0 +1,3 @@
+"0","daily_activity$weekday <- factor(daily_activity$weekday, "
+"0","                                 levels = c(""Monday"", ""Tuesday"", ""Wednesday"", "
+"0","                                                ""Thursday"", ""Friday"", ""Saturday"", ""Sunday""), ordered = TRUE)"

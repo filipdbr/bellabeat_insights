@@ -1,0 +1,8 @@
+"0","daily_activity$totalactivitymins <- daily_activity$veryactiveminutes + daily_activity$fairlyactiveminutes + daily_activity$lightlyactiveminutes"
+"0",""
+"0","daily_activity %>%"
+"0","  mutate(day_type = ifelse(weekday %in% c(""Saturday"", ""Sunday""), ""Weekend"", ""Weekday"")) %>%"
+"0","  ggplot(aes(x = day_type, y = totalactivitymins, fill = day_type)) +"
+"0","  geom_boxplot() +"
+"0","  labs(title = ""Weekday vs. Weekend Activity Comparison"", x = ""Day Type"", y = ""Total Activity Minutes"", fill = ""Day Type"") +"
+"0","  theme_minimal()"

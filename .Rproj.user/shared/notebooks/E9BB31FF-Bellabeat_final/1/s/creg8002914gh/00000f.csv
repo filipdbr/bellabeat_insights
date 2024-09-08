@@ -1,0 +1,5 @@
+"0","daily_activity_sleep$totalactivitymins = daily_activity_sleep$veryactiveminutes + daily_activity_sleep$fairlyactiveminutes + daily_activity_sleep$lightlyactiveminutes"
+"0",""
+"0","correlation_matrix <- daily_activity_sleep %>%"
+"0","  select(totalsteps, totaldistance, totalminutesasleep, totalactivitymins, calories, sedentaryminutes) %>%"
+"0","  cor()"

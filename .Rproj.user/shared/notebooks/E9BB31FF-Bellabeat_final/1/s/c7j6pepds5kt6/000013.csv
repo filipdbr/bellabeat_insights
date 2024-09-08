@@ -1,0 +1,2 @@
+"0","daily_calories <- rename_with(daily_calories, tolower)"
+"0","clean_names(daily_intensities)"

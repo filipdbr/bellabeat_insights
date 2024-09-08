@@ -1,0 +1,5 @@
+"0","avg_bedtime_gap <- daily_activity_sleep %>% "
+"0","    na.omit() %>% "
+"0","    group_by(weekday) %>% "
+"0","    summarise(avgbedtimegap = mean(bedtimegap)) %>% "
+"0","  mutate(avgbedtimegap = round(avgbedtimegap,1))"

@@ -1,0 +1,2 @@
+"0","daily_intensities <- rename_with(daily_intensities, tolower)"
+"0","clean_names(daily_sleep)"

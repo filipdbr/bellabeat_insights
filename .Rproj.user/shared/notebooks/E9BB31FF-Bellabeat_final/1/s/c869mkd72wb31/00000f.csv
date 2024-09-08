@@ -1,0 +1,1 @@
+"0","daily_activity_sleep$bedtimegap <- daily_activity_sleep$totaltimeinbed - daily_activity_sleep$totalminutesasleep"

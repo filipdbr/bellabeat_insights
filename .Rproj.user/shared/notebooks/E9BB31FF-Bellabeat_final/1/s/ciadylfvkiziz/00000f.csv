@@ -1,0 +1,7 @@
+"0","ggplot(daily_activity, aes(x = weekday, y = loggedactivitiesdistance)) +"
+"0","           geom_col(fill = ""coral3"") + "
+"0","  labs("
+"0","    title = ""Logged activities distance in total"","
+"0","    x = ""Weekday"","
+"0","    y = ""Logged activities distance(km)"""
+"0","  )"

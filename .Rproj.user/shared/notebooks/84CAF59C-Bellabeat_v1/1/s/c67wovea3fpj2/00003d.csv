@@ -1,0 +1,2 @@
+"0","hourly_intensities <- rename_with(hourly_intensities, tolower)"
+"0","clean_names(hourly_steps)"

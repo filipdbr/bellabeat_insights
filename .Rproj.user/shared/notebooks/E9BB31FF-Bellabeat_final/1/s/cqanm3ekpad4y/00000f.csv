@@ -1,0 +1,1 @@
+"0","avg_bedtime_gap$weekday <- factor(avg_bedtime_gap$weekday, levels = c(""Monday"", ""Tuesday"", ""Wednesday"", ""Thursday"", ""Friday"", ""Saturday"", ""Sunday""), ordered = TRUE)"

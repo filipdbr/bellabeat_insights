@@ -1,0 +1,4 @@
+"0","daily_activity %>%"
+"0","  na.omit() %>%"
+"0","  summarise(average_sedentary_hours = mean(sedentaryminutes) / 60) %>% "
+"0","  mutate(average_sedentary_hours = round(average_sedentary_hours,2))"

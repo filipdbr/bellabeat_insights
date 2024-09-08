@@ -1,0 +1,2 @@
+"0","hourly_calories <- rename_with(hourly_calories, tolower)"
+"0","clean_names(hourly_intensities)"
